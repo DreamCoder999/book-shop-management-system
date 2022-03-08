@@ -17,7 +17,7 @@
 <header>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow fixed-top">
         <div class="container-fluid">
-            <a class="navbar-brand text-warning" href="#"><h2>Books</h2></a>
+            <a class="navbar-brand text-warning" href="../"><h2>Books</h2></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
                     aria-controls="navbarContent" aria-expanded="false" aria-label="Navigation toggle">
                 <span class="navbar-toggler-icon"></span>
@@ -44,8 +44,68 @@
         </div>
     </nav>
 </header>
-<main class="h-100" style="min-height:100vh">
-
+<main class="h-100 pt-5" style="min-height:100vh">
+    <div class="container row py-5 mx-auto">
+        <div class="col col-12 card-dark grow rounded rounded-3 pt-4">
+            <form action="#" method="post" class="mx-auto font-merienda">
+                <div class="row rounded-1 w-100 mx-auto warn-shadow my-4">
+                    <div class="col-12">
+                        <div class="text-center mb-5">
+                            <h1 class="fw-bolder text-warning text-capitalize">Create New Account</h1>
+                            <h4 class="text-white-50">Welcome to the <span class="text-warning">Book Shop</span></h4>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-12">
+                        <div class="form-floating mb-4">
+                            <input class="form-control form-control-lg bg-dark border-warning" type="text"
+                                   name="firstname" id="firstName" placeholder="John">
+                            <label class="form-label text-warning" for="firstName">Enter your name</label>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-12">
+                        <div class="form-floating mb-4">
+                            <input class="form-control form-control-lg bg-dark border-warning" type="text"
+                                   name="firstname" id="lastName" placeholder="John">
+                            <label class="form-label text-warning" for="lastName">Enter your surname</label>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-12">
+                        <div class="form-floating mb-4">
+                            <input class="form-control form-control-lg bg-dark border-warning" type="email"
+                                   name="firstname" id="email" placeholder="John">
+                            <label class="form-label text-warning" for="email">Enter your email</label>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-12">
+                        <div class="form-floating mb-4">
+                            <input class="form-control form-control-lg bg-dark border-warning" type="text"
+                                   name="phone" id="phone" placeholder="John">
+                            <label class="form-label text-warning" for="phone">Enter your phone</label>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-12">
+                        <div class="form-floating mb-4">
+                            <input class="form-control form-control-lg bg-dark border-warning" type="text"
+                                   name="password" id="password" placeholder="John">
+                            <label class="form-label text-warning" for="password">Enter your password</label>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-12">
+                        <div class="form-floating mb-4">
+                            <input class="form-control form-control-lg bg-dark border-warning" type="text"
+                                   name="repeatPassword" id="repeatPassword" placeholder="John">
+                            <label class="form-label text-warning" for="repeatPassword">Enter your repeat password</label>
+                        </div>
+                    </div>
+                    <div class="col-12 d-grid mb-5">
+                        <button type="submit" class="btn btn-warning btn-lg">Create Account</button>
+                        <small class="text-white-50 mt-2">By registering through this section, you agree to <a
+                                href="#" class="link-primary">our terms</a>.</small>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
 </main>
 <footer class="p-5 shadow-lg mt-5" style="background-color: #1c1e22">
     <div class="container row row-cols-md-3 row-cols-1">
@@ -106,3 +166,4 @@
 </script>
 </body>
 </html>
+

@@ -130,3 +130,12 @@ nav .search-icon i {
 .bg-dark-footer {
     color: #1c1e22 !important;
 }
+
+.warn-shadow input {
+    color: #ffc720;
+}
+
+.warn-shadow input:focus {
+    color: #ffc720 !important;
+    box-shadow: 0 0 0 .25rem rgba(217, 164, 6, .5) !important;
+}

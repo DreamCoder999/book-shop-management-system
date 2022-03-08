@@ -83,6 +83,10 @@ nav .search-icon i {
     height: 100%;
 }
 
+img {
+    height: auto;
+}
+
 .swiper-slide {
     text-align: center;
     font-size: 18px;

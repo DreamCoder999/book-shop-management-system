@@ -77,6 +77,14 @@ nav .search-icon i {
     background-color: #32383e;
 }
 
+.dropdown-toggle:after {
+    content: none;
+}
+
+.dropdown-menu[data-bs-popper] {
+    left: -40px !important;
+}
+
 /* Swiper */
 .swiper {
     width: 100%;
